@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: 8426ff;
 	}
 
 	i, em {
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #8426ff;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -221,7 +221,7 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-/* Container */
+/* Container************************************************************************************* */
 
 	.container {
 		margin: 0 auto;
@@ -1686,7 +1686,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #8426FF;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1973,7 +1973,10 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+		background-image: url("../../images/SeamlessPatternBauhaus.png");
+		background-repeat: repeat;
+		max-width: 100%;
+		background-attachment: fixed;
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
@@ -1981,7 +1984,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: black;
 		}
 
 		.wrapper.style2 {
@@ -2096,14 +2099,14 @@ input, select, textarea {
 	}
 
 		#top .image {
-			border-radius: 100%;
+			border-radius: 50%;
 			width: 20em;
 			height: 20em;
 			margin: 0;
 		}
 
 			#top .image img {
-				border-radius: 100%;
+				border-radius: 50%;
 			}
 
 		#top h1 {
@@ -2371,7 +2374,7 @@ input, select, textarea {
 				text-align: center;
 			}
 
-		/* Nav */
+		/* Nav ****************************/
 
 			#nav {
 				height: 44px;
